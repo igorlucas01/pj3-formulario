@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body::before{
+    content:'';
+    display: block;
+    background: #535971;
+    width: 100%;
+    height: 436px;
+    top: -2px;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
+h1{
+   color: #fff;
+    font-family: 'Staatliches', cursive;
+
+
+font-weight: 400;
+font-size: 48px;
+} body{
+    background: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+}
+.page{
+    width: 750px;
+    margin: auto;
+}
+header{
+    margin-top: 140px;
+    width: 7317px;
+}
+p{
+    color: #fff;
+    font-weight: 400;
+font-size: 20px;
+}
+form{
+    background-color: #E6E6F0;
+    min-height: 300px;
+    width: 1084px;
+    margin-top: 60px;
+    border-radius: 8px;
+    padding: 64px;
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset{
+    border: none;
+    
+}
+
+legend{
+    font-family: 'Staatliches';
+font-size: 24px;
+line-height: 34px;
+width: 100%;
+border-bottom: 1px solid #ababb1;
+padding-bottom: 16px;
+margin-bottom:  68px;
+;
+
+}
+
+.input-wrapper input{
+    background: #FAFAFC;
+    border-radius: 8px;
+    border: 1px solid #E6E6F0;
+    width: 356px;
+    height: 56px;
+    display: flex;
+    gap: 16px;
+   
+}
+.coluns-2{
+    display: flex;
+gap: 22px;
+}
+    
+.input-wrapper label{
+    font-family: 'Poppins';
+    color: #4E4958;
+    font-weight: 400;
+font-size: 14px
+}
+   
+ span{
+        color: #aba9af;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 12px;
+        
+    }
+    
+h2{
+    color: #535971;
+    font-family: 'Staatliches';
+    font-weight: 400;
+font-size: 20px;
+}
+.col-3 {
+    display: flex;
+    gap: 20px;
+  }
+
+footer{
+    background:#4E4958;
+
+    height: 136px;
+  
+    display: flex;
+    flex-direction: column;
+  
+    padding: 40px 64px;
+  
+    margin-bottom: 100px;
+  
+    border-top: 1px solid #D6D6D6;
+    border-radius: 0 0 8px 8px;
+}
+    button{
+        
+position: absolute;
+       display: flex;
+       flex-direction: column;
+justify-content: center;
+align-items: center;
+        background: #FF5374;
+border-radius: 20px;
+width: 608px;
+height: 55.65px;
+color: #fff;
+font-family: 'Staatliches';
+font-weight: 400;
+font-size: 20px;
+padding: 15px 40px;
+border: none;
+    }
